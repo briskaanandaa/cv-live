@@ -56,18 +56,18 @@ export const DATA = {
       href: "https://upwork.com",
       location: "Remote",
       title: "Web Developer",
-      logoUrl: "/shopify.svg",
+      logoUrl: "/Freelance.png",
       start: "April 2022",
       end: "Present",
       description:
-      "Developed and maintained dynamic and responsive web applications for various clients, enhancing user experience through meticulous attention to UI/UX design principles. Utilized Figma and Framer for designing and prototyping user interfaces, ensuring seamless and interactive user experiences. Implemented designs using HTML, CSS, and JavaScript, with a strong emphasis on modern frameworks and libraries such as Tailwind CSS, Bootstrap, React.js, and Next.js."}
+      "Developed, maintained dynamic and responsive web applications for various clients, enhancing user experience through meticulous attention to UI/UX design principles. Utilized Figma and Framer for designing and prototyping user interfaces, ensuring seamless and interactive user experiences. Implemented designs using HTML, CSS, and JavaScript, with a strong emphasis on modern frameworks and libraries such as Tailwind CSS, Bootstrap, React.js, and Next.js."}
     ,{
       company: "Seven Media Technology",
       badges: [],
       href: "https://sevenmediatech.co.id",
       location: "Onsite",
       title: "Wordpress Designer",
-      logoUrl: "/shopify.svg",
+      logoUrl: "/Seven Media Tech.png",
       start: "April 2024",
       end: "July 2024",
       description:
@@ -78,7 +78,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Web and Mobile Apps Manager",
-      logoUrl: "/nvidia.png",
+      logoUrl: "/Berbinar.png",
       start: "January 2024",
       end: "April 2024",
       description:
@@ -89,7 +89,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "UI/UX Designer",
-      logoUrl: "/splunk.svg",
+      logoUrl: "/Berbinar.png",
       start: "October 2023",
       end: "January 2024",
       description:
@@ -100,7 +100,7 @@ export const DATA = {
       badges: [],
       location: "Onsite",
       title: "Graphic Designer",
-      logoUrl: "/lime.svg",
+      logoUrl: "/New Coral.png",
       start: "July 2023",
       end: "October 2023",
       description:
@@ -113,7 +113,7 @@ export const DATA = {
       school: "Universitas Negeri Semarang",
       href: "https://unnes.ac.id",
       degree: "Computer Engginering",
-      logoUrl: "/buildspace.jpg",
+      logoUrl: "/UNNES.png",
       start: "2022",
       end: "Present",
     },
@@ -121,7 +121,7 @@ export const DATA = {
       school: "SMA Negeri Karangpandan",
       href: "https://smankarangpandan.sch.id/",
       degree: "Sciene and Mathematic",
-      logoUrl: "/waterloo.png",
+      logoUrl: "/SMANKRAP.png",
       start: "2019",
       end: "2022",
     },
@@ -129,26 +129,22 @@ export const DATA = {
 
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "Berbinar Website",
+      href: "https://berbinar.in",
+      dates: "October 2023 - April 2024",
       active: true,
       description:
         "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Figma",
+        "PHP",
+        "Laravel",
+        "Tailwind",
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://berbinar.in",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -156,55 +152,43 @@ export const DATA = {
       video:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
+
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      title: "Online Course Website",
+      href: "https://b-course-project.netlify.app/",
+      dates: "January 2024 - February 2023",
       active: true,
       description:
         "Designed, developed and sold animated UI components for developers.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Figma",
+        "React.js",
+        "Bootstrap",
+        "Cloudflare",
+        "Netlify",
+        "Animate.css",
       ],
       links: [
         {
           type: "Website",
-          href: "https://magicui.design",
+          href: "https://b-course-project.netlify.app/",
           icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
-          icon: <Icons.github className="size-3" />,
-        },
+        }
       ],
       image: "",
       video: "https://cdn.magicui.design/bento-grid.mp4",
     },
+
     {
-      title: "llm.report",
+      title: "Digital Website Agency Design",
       href: "https://llm.report",
-      dates: "April 2023 - September 2023",
+      dates: "December 2023 - January 2024",
       active: true,
       description:
         "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "Figma",
+        "Framer",
       ],
       links: [
         {
@@ -215,7 +199,7 @@ export const DATA = {
         {
           type: "Source",
           href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />,
+          icon: <Icons.figma className="size-3" />,
         },
       ],
       image: "",
