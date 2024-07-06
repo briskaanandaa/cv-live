@@ -134,7 +134,7 @@ export const DATA = {
       dates: "October 2023 - April 2024",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Berbinar Counseling is an online platform providing professional mental health support.",
       technologies: [
         "Figma",
         "PHP",
@@ -150,16 +150,16 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "berbinar.in",
     },
 
     {
       title: "Online Course Website",
       href: "https://b-course-project.netlify.app/",
-      dates: "January 2024 - February 2023",
+      dates: "June 2023 - July 2023",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "Developed online class website using React.js",
       technologies: [
         "Figma",
         "React.js",
@@ -176,64 +176,52 @@ export const DATA = {
         }
       ],
       image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      video: "https://drive.google.com/file/d/1NmhfUifM2eyAbUtIwylVwpcCUoAL9XBN/view?usp=sharing",
     },
 
     {
       title: "Digital Website Agency Design",
-      href: "https://llm.report",
+      href: "https://www.figma.com/design/a2rgSioIRIZfRnPchrf4Cs/Belajar?node-id=83-42&t=mbQ8j1BfN993ooAV-1",
       dates: "December 2023 - January 2024",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "Designed, developed and sold Website Design.",
       technologies: [
         "Figma",
         "Framer",
       ],
       links: [
         {
-          type: "Website",
-          href: "https://llm.report",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "https://www.figma.com/design/a2rgSioIRIZfRnPchrf4Cs/Belajar?node-id=83-42&t=mbQ8j1BfN993ooAV-1",
           icon: <Icons.figma className="size-3" />,
         },
       ],
       image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      video: "public/UNNES",
     },
     {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
+      title: "Nugratama Website",
+      href: "https://nugratama.co.id/",
+      dates: "April 2024",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "Nugratama, a subsidiary of Pertamina, presents its landing page as a gateway to explore its diverse energy solutions and sustainable practices.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "Figma",
+        "Wordpress",
+        "Elementor",
       ],
       links: [
         {
           type: "Website",
-          href: "https://automatic.chat",
+          href: "https://nugratama.co.id/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
-    },
+      video: "/public/digital-agency.mp4"
+    }
   ],
 
   // hackathons: [
